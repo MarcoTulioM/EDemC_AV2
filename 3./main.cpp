@@ -128,5 +128,6 @@ int main() {
     imprime(&Aprovados);
 
  	apaga(&L);
+    apaga(&Aprovados);
  	return 0;
 }

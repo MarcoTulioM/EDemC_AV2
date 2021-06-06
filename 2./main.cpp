@@ -83,7 +83,7 @@ void crescente (Lista* L) {
   while (no != NULL){
     No *p = no->prox;
     while (p != NULL){
-        if (no->salario > p->salario){ //se maior troca o conteudo das duas pessoas
+        if (no->salario > p->salario){ 
 
             int tmp_id = no->id; 
             no->id = p->id;
